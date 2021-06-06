@@ -2,9 +2,10 @@
   "name": "JavaScript_MERN_Projects-Link_Tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node App.js",
+    "server": "nodemon App.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker/issues"
   },
-  "homepage": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker#readme"
+  "homepage": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7"
+  }
 }
