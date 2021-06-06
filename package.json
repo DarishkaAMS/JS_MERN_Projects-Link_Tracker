@@ -1,33 +1,20 @@
 {
-  "name": "javascript_mern_projects-link_tracker",
+  "name": "JavaScript_MERN_Projects-Link_Tracker",
   "version": "1.0.0",
-  "description": "Mern stack",
-  "main": "App.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node App.js",
-    "server": "nodemon App.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker.git"
   },
-  "keywords": [
-    "mern",
-    "react"
-  ],
+  "keywords": [],
   "author": "DarishkaAMS",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker/issues"
   },
-  "homepage": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker#readme",
-  "dependencies": {
-    "concurrently": "^6.2.0",
-    "config": "^3.3.6",
-    "mongoose": "^5.12.13"
-  },
-  "devDependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7"
-  }
+  "homepage": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker#readme"
 }
