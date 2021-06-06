@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "concurrently": "^6.2.0",
     "config": "^3.3.6",
     "express": "^4.17.1",
