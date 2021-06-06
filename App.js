@@ -7,7 +7,6 @@ const app = express();
 
 app.use('/api/auth', authRouter);
 
-
 const PORT = config.get('port') || 5000;
 
 async function startDB() {
