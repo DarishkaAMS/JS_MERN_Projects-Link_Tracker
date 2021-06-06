@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "App.js",
+  "type": "module",
   "scripts": {
     "start": "node App.js",
     "server": "nodemon App.js"
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/DarishkaAMS/JavaScript_MERN_Projects-Link_Tracker#readme",
   "dependencies": {
     "concurrently": "^6.2.0",
+    "config": "^3.3.6",
     "express": "^4.17.1",
     "mongoose": "^5.12.13",
     "nodemon": "^2.0.7"
