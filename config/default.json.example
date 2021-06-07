@@ -1,4 +1,5 @@
 {
     "port": PORT,
-    "mongoDBUri": "mongoDBUri"
+    "mongoDBUri": "mongoDBUri",
+    "jwtSecretKey": "bla-bla-bla"
 }
