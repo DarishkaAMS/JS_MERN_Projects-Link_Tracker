@@ -1,12 +1,27 @@
 import express from 'express';
 import bcrypt from 'bcryptjs';
+import { check, validationResult } from 'express-validator';
 
 import User from '../models/User.js';
 
 const router = express.Router();
 
-router.post('/register', async(req, res) => { 
+router.post(
+    '/register', 
+    [
+        check('email', 'Fishy Email').isEmail(),
+        check('password', 'Password is too short').isLength({ min: 6 })
+    ],
+    async(req, res) => { 
     try {
+        const errors = validationResult(req);
+        if (!errors.isEmpty()){
+            return res.status(400).json({
+                errors: errors.array(),
+                message: "Sorry, but I can't use this data for registration"
+            })
+        };
+
         const {email, password} = req.body;
         const candidate = await User.findOne({ email })
 
