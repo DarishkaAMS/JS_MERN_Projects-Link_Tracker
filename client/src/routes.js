@@ -11,10 +11,10 @@ export const useRoutes = isAuthenticated => {
         return (
             <Switch>
                 <Route path="/create" exact>
-                    <LinksPage />
+                    <CreatePage />
                 </Route>
                 <Route path="/links" exact>
-                    <CreatePage />
+                    <LinksPage />
                 </Route>
                 <Route path="/detail/:id">
                     <DetailPage />

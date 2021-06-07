@@ -3,7 +3,7 @@ import React from 'react';
 export const DetailPage = () => {
     return (
         <div>
-            <h2> Authentication page </h2>
+            <h2> Detail page </h2>
         </div>
     )
 };
