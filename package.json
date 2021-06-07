@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node App.js",
-    "server": "nodemon App.js"
+    "server": "nodemon App.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
