@@ -3,6 +3,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import "materialize-css";
 import { useRoutes } from './routes';
 
+import './index.css';
+
 function App() {
   const routes = useRoutes(false);
   return (
